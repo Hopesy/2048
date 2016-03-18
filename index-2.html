@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" href="tubiao2.ico">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="description" content="Your description goes here" />
+	<meta name="keywords" content="your,keywords,goes,here" />
+	<meta name="author" content="Your Name" />
+	<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz|Droid+Sans|Princess+Sofia' rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" type="text/css" media="all" href="inland-hembygd.css" />
+	<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+	<title>学校集体</title>
+	<script type="text/javascript" src="js/laydate.js"></script>
+
+	<style type="text/css">
+		*{margin:0;padding:0;list-style:none;}
+		html{background-color:#E3E3E3; font-size:14px; color:#000; font-family:'微软雅黑'}
+		h2{line-height:30px; font-size:20px;}
+		a,a:hover{ text-decoration:none;}
+		pre{font-family:'微软雅黑'}
+		.box{width:970px; padding:10px 20px; background-color:#fff; margin:10px auto;}
+		.box a{padding-right:20px;}
+		.demo1,.demo2,.demo3,.demo4,.demo5,.demo6{margin:25px 0;}
+		h3{margin:10px 0;}
+		.layinput{height: 22px;line-height: 22px;width: 150px;margin: 0;}
+	</style>
+	<style>
+		form{
+			border: 1px solid green;
+			margin-left:50px;
+			margin-right:50px;
+		}
+	</style>
+</head>
+
+<body onload="check()" background="background.jpg">
+
+<script>
+	function check()
+	{
+		alert("感谢您参与填写个人资料!");
+	}
+</script>
+<script>
+	var x=1;
+	function myFunction()
+	{   x=x+1;
+		switch (x)
+		{
+			case 2:
+				document.getElementById('2').style.display='block';
+				break;
+			case 3:
+				document.getElementById('3').style.display='block';
+				break;
+			case 4:
+				document.getElementById('4').style.display='block';
+				break;
+			case 5:
+				document.getElementById('5').style.display='block';
+				break;
+			case 6:
+				document.getElementById('6').style.display='block';
+				break;
+			default:
+				alert("其他家人相关信息请自行填写并上传。")
+		}
+	}
+</script>
+<script>
+	var y=21;
+	function my()
+	{   y=y+1;
+		switch (y)
+		{
+			case 22:
+				document.getElementById('22').style.display='block';
+				break;
+			case 23:
+				document.getElementById('23').style.display='block';
+				break;
+			case 24:
+				document.getElementById('24').style.display='block';
+				break;
+			case 25:
+				document.getElementById('25').style.display='block';
+				break;
+			case 26:
+				document.getElementById('26').style.display='block';
+				break;
+			case 27:
+				document.getElementById('27').style.display='block';
+				break;
+			case 28:
+				document.getElementById('28').style.display='block';
+				break;
+			default:
+				alert("其他出行记录请自行填写并上传。")
+		}
+	}
+</script>
+<div id="wrapper960" class="clearfix">
+	<div id="header" class="clearfix shadow">
+		<div id="sitetitle" class="clearfix">
+			<h1><a href="index.html">Traffic Research</a></h1>
+		</div>
+
+		<div id="nav" class="clearfix">
+			<ul>
+				<li><a href="index.html">RETURN</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="slider-wrapper">
+		<div id="slider" class="nivoSlider">
+			<img src="images/1.jpg" alt="" />
+			<img src="images/2.jpg" alt="" />
+			<img src="images/3.jpg" alt="" />
+			<img src="images/4.jpg" alt="" />
+		</div>
+	</div>
+	<div id="content" class="clearfix shadow">
+		<h2 text-align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fill Out Personal Information</h2>
+	</div>
+	<form method="posd" action="">
+		<h4> 1.姓名：</h4> <input type="text" name="name"style="border-color: #006600; border-style: solid; border-width: 1px">
+		<h4>2.学校名称</h4>
+		<input type="text" name="danwei"style="border-color: #006600; border-style: solid; border-width: 1px">
+		<h4>3.学校所属</h4>
+		<input type="text" name="qu"style="border-color: #006600; border-style: solid; border-width: 1px">区&nbsp;<b><input type="text" name="jie"style="border-color: #006600; border-style: solid; border-width: 1px"></b>街(镇）&nbsp;<input type="text" name="jie"style="border-color: #006600; border-style: solid; border-width: 1px">社区（居委会）<br>
+		<br>其他地址:<input type="text" name="qu"style="border-color: #006600; border-style:solid; border-width: 1px">
+		<h4>4.宿舍地址</h4>
+		<input type="text" name="qu"style="border-color: #006600; border-style: solid; border-width: 1px">区&nbsp;<input type="text" name="name"style="border-color: #006600; border-style: solid; border-width: 1px">街（镇）&nbsp;<input type="text" name="name"style="border-color: #006600; border-style: solid; border-width: 1px">路<br><br>
+		其他地址: <input type="text" name="name"style="border-color: #006600; border-style:solid; border-width: 1px">
+		<h4>5.年龄</h4>
+		<select name="age" style="border-color: #006600; border-style:solid; border-width: 1px" >
+			<option value="volvo"></option>
+			<option value="volvo">1</option>
+			<option value="saab">2</option>
+			<option value="fiat">3</option>
+			<option value="audi">4</option>
+			<option value="volvo">5</option>
+			<option value="saab">6</option>
+			<option value="fiat">7</option>
+			<option value="audi">8</option>
+			<option value="volvo">9</option>
+			<option value="saab">10</option>
+			<option value="fiat">11</option>
+			<option value="audi">12</option>
+			<option value="volvo">13</option>
+			<option value="saab">14</option>
+			<option value="fiat">15</option>
+			<option value="audi">16</option>
+			<option value="volvo">17</option>
+			<option value="saab">18</option>
+			<option value="fiat">19</option>
+			<option value="audi">20</option>
+			<option value="volvo">21</option>
+			<option value="saab">22</option>
+			<option value="fiat">23</option>
+			<option value="audi">24</option>
+			<option value="volvo">25</option>
+			<option value="saab">26</option>
+			<option value="fiat">27</option>
+			<option value="audi">28</option>
+			<option value="volvo">29</option>
+			<option value="saab">30</option>
+		</select>周岁
+		<h4>6.户籍类型</h4>
+		<input type="radio" name="nong" value="农" /> 农业户口
+		<br />
+		<input type="radio" name="fei" value="非农" /> 非农业户口
+		<h4>7.家庭成员组成</h4>
+		<img src="plus.jpg" width="20" height="20"style="position:absolute; left:280px; "onclick=" myFunction()" /><img src="plus.jpg" width="20" height="20"style="position:absolute; left:255px; " onclick=" myFunction()"/><img src="plus.jpg" width="20" height="20"style="position:absolute; left:305px; "onclick=" myFunction()" /><br><br>
+		<div id="1" >
+			成员一：<input type="text" name="unit-1"style="border-color: #006600; border-style: solid; border-width: 1px">与户主关系：
+			<select name="age" style="border-color: #006600; border-style:solid; border-width: 1px" ><option value="relationship"></option>
+				<option value="relationship-1">夫妻</option>
+				<option value="relationship-2">父母子女</option>
+				<option value="relationship-3">祖父母</option>
+				<option value="relationship-4">外祖父母</option>
+				<option value="relationship-5">兄弟姊妹</option>
+				<option value="relationship-6">外子女</option>
+				<option value="relationship-7">外孙子女</option>
+				<option value="relationship-8">其他</option>
+			</select>
+			<br><br>
+		</div>
+		<div id="2" style="display:none;">
+			成员二：<input type="text" name="unit-1"style="border-color: #006600; border-style: solid; border-width: 1px">与户主关系：
+			<select name="age" style="border-color: #006600; border-style:solid; border-width: 1px" ><option value="relationship"></option>
+				<option value="relationship-1">夫妻</option>
+				<option value="relationship-2">父母子女</option>
+				<option value="relationship-3">祖父母</option>
+				<option value="relationship-4">外祖父母</option>
+				<option value="relationship-5">兄弟姊妹</option>
+				<option value="relationship-6">外子女</option>
+				<option value="relationship-7">外孙子女</option>
+				<option value="relationship-8">其他</option>
+			</select><br><br>
+		</div>
+		<div id="3"style="display:none;" >
+			成员三：<input type="text" name="unit-1"style="border-color: #006600; border-style: solid; border-width: 1px">与户主关系：
+			<select name="age" style="border-color: #006600; border-style:solid; border-width: 1px" ><option value="relationship"></option>
+				<option value="relationship-1">夫妻</option>
+				<option value="relationship-2">父母子女</option>
+				<option value="relationship-3">祖父母</option>
+				<option value="relationship-4">外祖父母</option>
+				<option value="relationship-5">兄弟姊妹</option>
+				<option value="relationship-6">外子女</option>
+				<option value="relationship-7">外孙子女</option>
+				<option value="relationship-8">其他</option>
+			</select><br><br>
+		</div>
+		<div id="4" style="display:none;">
+			成员四：<input type="text" name="unit-1"style="border-color: #006600; border-style: solid; border-width: 1px">与户主关系：
+			<select name="age" style="border-color: #006600; border-style:solid; border-width: 1px" ><option value="relationship"></option>
+				<option value="relationship-1">夫妻</option>
+				<option value="relationship-2">父母子女</option>
+				<option value="relationship-3">祖父母</option>
+				<option value="relationship-4">外祖父母</option>
+				<option value="relationship-5">兄弟姊妹</option>
+				<option value="relationship-6">外子女</option>
+				<option value="relationship-7">外孙子女</option>
+				<option value="relationship-8">其他</option>
+			</select><br><br>
+		</div>
+		<div id="5" style="display:none;">
+			成员五：<input type="text" name="unit-1"style="border-color: #006600; border-style: solid; border-width: 1px">与户主关系：
+			<select name="age" style="border-color: #006600; border-style:solid; border-width: 1px" ><option value="relationship"></option>
+				<option value="relationship-1">夫妻</option>
+				<option value="relationship-2">父母子女</option>
+				<option value="relationship-3">祖父母</option>
+				<option value="relationship-4">外祖父母</option>
+				<option value="relationship-5">兄弟姊妹</option>
+				<option value="relationship-6">外子女</option>
+				<option value="relationship-7">外孙子女</option>
+				<option value="relationship-8">其他</option>
+			</select><br><br>
+		</div>
+		<div id="6"style="display:none;" >
+			成员六：<input type="text" name="unit-1"style="border-color: #006600; border-style: solid; border-width: 1px">与户主关系：
+			<select name="age" style="border-color: #006600; border-style:solid; border-width: 1px" ><option value="relationship"></option>
+				<option value="relationship-1">夫妻</option>
+				<option value="relationship-2">父母子女</option>
+				<option value="relationship-3">祖父母</option>
+				<option value="relationship-4">外祖父母</option>
+				<option value="relationship-5">兄弟姊妹</option>
+				<option value="relationship-6">外子女</option>
+				<option value="relationship-7">外孙子女</option>
+				<option value="relationship-8">其他</option>
+			</select><br>
+		</div>
+		<h4>8.个人出行记录</h4>
+		<img src="plus.jpg" width="20" height="20"style="position:absolute; left:280px; "onclick=" my()" /><img src="plus.jpg" width="20" height="20"style="position:absolute; left:255px; " onclick=" my()"/><img src="plus.jpg" width="20" height="20"style="position:absolute; left:305px; "onclick=" my()" /><br><br>
+		<div id="21" style="display:block;">
+			第一次出行：
+			<select name="age" style="border-color: #006600; border-style:solid; border-width: 1px" ><option value="relationship"></option>
+				<option value="purpose-1">上班</option>
+				<option value="purpose-2">上学</option>
+				<option value="purpose-3">公务业务</option>
+				<option value="purpose-4">生活购物</option>
+				<option value="purpose-5">文娱体育</option>
+				<option value="purpose-6">探亲访友</option>
+				<option value="purpose-7">回家</option>
+				<option value="purpose-8">回程</option>
+				<option value="purpose-9">其他</option>
+			</select>
+			出行目的&nbsp;
+			<select name="age" style="border-color: #006600; border-style:solid; border-width: 1px" ><option value="relationship"></option>
+				<option value="way-1">步行</option>
+				<option value="way-2">自行车</option>
+				<option value="way-3">摩托车</option>
+				<option value="way-4">私人小汽车</option>
+				<option value="way-5">公家小汽车</option>
+				<option value="way-6">公共汽车</option>
+				<option value="way-7">出租车</option>
+				<option value="way-8">地铁</option>
+				<option value="way-9">网络专车</option>
+				<option value="way-10">单位大客车</option>
+				<option value="way-11">物业巴士</option>
+				<option value="way-12">水巴/轮渡</option>
+				<option value="way-13">其他</option>
+			</select><br>
+			交通方式&nbsp;
+			<select name="age" style="border-color: #006600; border-style:solid; border-width: 1px" ><option value="relationship"></option>
+				<option value="park-1">路边停车</option>
+				<option value="park-2">公共停车场</option>
+				<option value="park-3">公共建筑配建停车场</option>
+				<option value="park-4">单位停车场</option>
+				<option value="park-5">工地停车场</option>
+				<option value="park-6">其他停车场</option>
+			</select>
+			停车方式&nbsp;<br>
+			<input placeholder="请输入日期" class="laydate-icon" style="border-color: #006600; border-style: solid; border-width: 1px" onClick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})">出发时间&nbsp;<input type="text" name="qu"style="border-color: #006600; border-style: solid; border-width: 1px">出发地&nbsp;
+			<input placeholder="请输入日期" class="laydate-icon" style="border-color: #006600; border-style: solid; border-width: 1px" onClick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})">到达时间&nbsp;<input type="text" name="qu"style="border-color: #006600; border-style: solid; border-width: 1px">到达地&nbsp;
+			<br><br></div>
+
+		<div id="22" style="display:none;">
+			第二次出行：
+			<select name="age" style="border-color: #006600; border-style:solid; border-width: 1px" ><option value="relationship"></option>
+				<option value="purpose-1">上班</option>
+				<option value="purpose-2">上学</option>
+				<option value="purpose-3">公务业务</option>
+				<option value="purpose-4">生活购物</option>
+				<option value="purpose-5">文娱体育</option>
+				<option value="purpose-6">探亲访友</option>
+				<option value="purpose-7">回家</option>
+				<option value="purpose-8">回程</option>
+				<option value="purpose-9">其他</option>
+			</select>
+			出行目的&nbsp;
+			<select name="age" style="border-color: #006600; border-style:solid; border-width: 1px" ><option value="relationship"></option>
+				<option value="way-1">步行</option>
+				<option value="way-2">自行车</option>
+				<option value="way-3">摩托车</option>
+				<option value="way-4">私人小汽车</option>
+				<option value="way-5">公家小汽车</option>
+				<option value="way-6">公共汽车</option>
+				<option value="way-7">出租车</option>
+				<option value="way-8">地铁</option>
+				<option value="way-9">网络专车</option>
+				<option value="way-10">单位大客车</option>
+				<option value="way-11">物业巴士</option>
+				<option value="way-12">水巴/轮渡</option>
+				<option value="way-13">其他</option>
+			</select>
+			交通方式&nbsp;
+			<select name="age" style="border-color: #006600; border-style:solid; border-width: 1px" ><option value="relationship"></option>
+				<option value="park-1">路边停车</option>
+				<option value="park-2">公共停车场</option>
+				<option value="park-3">公共建筑配建停车场</option>
+				<option value="park-4">单位停车场</option>
+				<option value="park-5">工地停车场</option>
+				<option value="park-6">其他停车场</option>
+			</select>
+			停车方式&nbsp;<br>
+			<input placeholder="请输入日期" class="laydate-icon" style="border-color: #006600; border-style: solid; border-width: 1px" onClick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})">出发时间&nbsp;<input type="text" name="qu"style="border-color: #006600; border-style: solid; border-width: 1px">出发地&nbsp;
+			<input placeholder="请输入日期" class="laydate-icon" style="border-color: #006600; border-style: solid; border-width: 1px" onClick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})">到达时间&nbsp;<input type="text" name="qu"style="border-color: #006600; border-style: solid; border-width: 1px">到达地&nbsp;
+			<br><br></div>
+		<div id="23" style="display:none;">
+			第三次出行：
+			<select name="age" style="border-color: #006600; border-style:solid; border-width: 1px" ><option value="relationship"></option>
+				<option value="purpose-1">上班</option>
+				<option value="purpose-2">上学</option>
+				<option value="purpose-3">公务业务</option>
+				<option value="purpose-4">生活购物</option>
+				<option value="purpose-5">文娱体育</option>
+				<option value="purpose-6">探亲访友</option>
+				<option value="purpose-7">回家</option>
+				<option value="purpose-8">回程</option>
+				<option value="purpose-9">其他</option>
+			</select>
+			出行目的&nbsp;
+			<select name="age" style="border-color: #006600; border-style:solid; border-width: 1px" ><option value="relationship"></option>
+				<option value="way-1">步行</option>
+				<option value="way-2">自行车</option>
+				<option value="way-3">摩托车</option>
+				<option value="way-4">私人小汽车</option>
+				<option value="way-5">公家小汽车</option>
+				<option value="way-6">公共汽车</option>
+				<option value="way-7">出租车</option>
+				<option value="way-8">地铁</option>
+				<option value="way-9">网络专车</option>
+				<option value="way-10">单位大客车</option>
+				<option value="way-11">物业巴士</option>
+				<option value="way-12">水巴/轮渡</option>
+				<option value="way-13">其他</option>
+			</select>
+			交通方式&nbsp;
+			<select name="age" style="border-color: #006600; border-style:solid; border-width: 1px" ><option value="relationship"></option>
+				<option value="park-1">路边停车</option>
+				<option value="park-2">公共停车场</option>
+				<option value="park-3">公共建筑配建停车场</option>
+				<option value="park-4">单位停车场</option>
+				<option value="park-5">工地停车场</option>
+				<option value="park-6">其他停车场</option>
+			</select>
+			停车方式&nbsp;<br>
+			<input placeholder="请输入日期" class="laydate-icon" style="border-color: #006600; border-style: solid; border-width: 1px" onClick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})">出发时间&nbsp;<input type="text" name="qu"style="border-color: #006600; border-style: solid; border-width: 1px">出发地&nbsp;
+			<input placeholder="请输入日期" class="laydate-icon" style="border-color: #006600; border-style: solid; border-width: 1px" onClick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})">到达时间&nbsp;<input type="text" name="qu"style="border-color: #006600; border-style: solid; border-width: 1px">到达地&nbsp;
+			<br><br></div>
+		<div id="24" style="display:none;">
+			第四次出行：
+			<select name="age" style="border-color: #006600; border-style:solid; border-width: 1px" ><option value="relationship"></option>
+				<option value="purpose-1">上班</option>
+				<option value="purpose-2">上学</option>
+				<option value="purpose-3">公务业务</option>
+				<option value="purpose-4">生活购物</option>
+				<option value="purpose-5">文娱体育</option>
+				<option value="purpose-6">探亲访友</option>
+				<option value="purpose-7">回家</option>
+				<option value="purpose-8">回程</option>
+				<option value="purpose-9">其他</option>
+			</select>
+			出行目的&nbsp;
+			<select name="age" style="border-color: #006600; border-style:solid; border-width: 1px" ><option value="relationship"></option>
+				<option value="way-1">步行</option>
+				<option value="way-2">自行车</option>
+				<option value="way-3">摩托车</option>
+				<option value="way-4">私人小汽车</option>
+				<option value="way-5">公家小汽车</option>
+				<option value="way-6">公共汽车</option>
+				<option value="way-7">出租车</option>
+				<option value="way-8">地铁</option>
+				<option value="way-9">网络专车</option>
+				<option value="way-10">单位大客车</option>
+				<option value="way-11">物业巴士</option>
+				<option value="way-12">水巴/轮渡</option>
+				<option value="way-13">其他</option>
+			</select>
+			交通方式&nbsp;
+			<select name="age" style="border-color: #006600; border-style:solid; border-width: 1px" ><option value="relationship"></option>
+				<option value="park-1">路边停车</option>
+				<option value="park-2">公共停车场</option>
+				<option value="park-3">公共建筑配建停车场</option>
+				<option value="park-4">单位停车场</option>
+				<option value="park-5">工地停车场</option>
+				<option value="park-6">其他停车场</option>
+			</select>
+			停车方式&nbsp;<br>
+			<input placeholder="请输入日期" class="laydate-icon" style="border-color: #006600; border-style: solid; border-width: 1px" onClick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})">出发时间&nbsp;<input type="text" name="qu"style="border-color: #006600; border-style: solid; border-width: 1px">出发地&nbsp;
+			<input placeholder="请输入日期" class="laydate-icon" style="border-color: #006600; border-style: solid; border-width: 1px" onClick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})">到达时间&nbsp;<input type="text" name="qu"style="border-color: #006600; border-style: solid; border-width: 1px">到达地&nbsp;
+			<br></div>
+		<div id="25" style="display:none;">
+			第五次出行：
+			<select name="age" style="border-color: #006600; border-style:solid; border-width: 1px" ><option value="relationship"></option>
+				<option value="purpose-1">上班</option>
+				<option value="purpose-2">上学</option>
+				<option value="purpose-3">公务业务</option>
+				<option value="purpose-4">生活购物</option>
+				<option value="purpose-5">文娱体育</option>
+				<option value="purpose-6">探亲访友</option>
+				<option value="purpose-7">回家</option>
+				<option value="purpose-8">回程</option>
+				<option value="purpose-9">其他</option>
+			</select>
+			出行目的&nbsp;
+			<select name="age" style="border-color: #006600; border-style:solid; border-width: 1px" ><option value="relationship"></option>
+				<option value="way-1">步行</option>
+				<option value="way-2">自行车</option>
+				<option value="way-3">摩托车</option>
+				<option value="way-4">私人小汽车</option>
+				<option value="way-5">公家小汽车</option>
+				<option value="way-6">公共汽车</option>
+				<option value="way-7">出租车</option>
+				<option value="way-8">地铁</option>
+				<option value="way-9">网络专车</option>
+				<option value="way-10">单位大客车</option>
+				<option value="way-11">物业巴士</option>
+				<option value="way-12">水巴/轮渡</option>
+				<option value="way-13">其他</option>
+			</select>
+			交通方式&nbsp;
+			<select name="age" style="border-color: #006600; border-style:solid; border-width: 1px" ><option value="relationship"></option>
+				<option value="park-1">路边停车</option>
+				<option value="park-2">公共停车场</option>
+				<option value="park-3">公共建筑配建停车场</option>
+				<option value="park-4">单位停车场</option>
+				<option value="park-5">工地停车场</option>
+				<option value="park-6">其他停车场</option>
+			</select>
+			停车方式&nbsp;<br>
+			<input placeholder="请输入日期" class="laydate-icon" style="border-color: #006600; border-style: solid; border-width: 1px" onClick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})">出发时间&nbsp;<input type="text" name="qu"style="border-color: #006600; border-style: solid; border-width: 1px">出发地&nbsp;
+			<input placeholder="请输入日期" class="laydate-icon" style="border-color: #006600; border-style: solid; border-width: 1px" onClick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})">到达时间&nbsp;<input type="text" name="qu"style="border-color: #006600; border-style: solid; border-width: 1px">到达地&nbsp;
+			<br><br></div>
+		<div id="26" style="display:none;">
+			第六次出行：
+			<select name="age" style="border-color: #006600; border-style:solid; border-width: 1px" ><option value="relationship"></option>
+				<option value="purpose-1">上班</option>
+				<option value="purpose-2">上学</option>
+				<option value="purpose-3">公务业务</option>
+				<option value="purpose-4">生活购物</option>
+				<option value="purpose-5">文娱体育</option>
+				<option value="purpose-6">探亲访友</option>
+				<option value="purpose-7">回家</option>
+				<option value="purpose-8">回程</option>
+				<option value="purpose-9">其他</option>
+			</select>
+			出行目的&nbsp;
+			<select name="age" style="border-color: #006600; border-style:solid; border-width: 1px" ><option value="relationship"></option>
+				<option value="way-1">步行</option>
+				<option value="way-2">自行车</option>
+				<option value="way-3">摩托车</option>
+				<option value="way-4">私人小汽车</option>
+				<option value="way-5">公家小汽车</option>
+				<option value="way-6">公共汽车</option>
+				<option value="way-7">出租车</option>
+				<option value="way-8">地铁</option>
+				<option value="way-9">网络专车</option>
+				<option value="way-10">单位大客车</option>
+				<option value="way-11">物业巴士</option>
+				<option value="way-12">水巴/轮渡</option>
+				<option value="way-13">其他</option>
+			</select>
+			交通方式&nbsp;
+			<select name="age" style="border-color: #006600; border-style:solid; border-width: 1px" ><option value="relationship"></option>
+				<option value="park-1">路边停车</option>
+				<option value="park-2">公共停车场</option>
+				<option value="park-3">公共建筑配建停车场</option>
+				<option value="park-4">单位停车场</option>
+				<option value="park-5">工地停车场</option>
+				<option value="park-6">其他停车场</option>
+			</select>
+			停车方式&nbsp;<br>
+			<input placeholder="请输入日期" class="laydate-icon" style="border-color: #006600; border-style: solid; border-width: 1px" onClick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})">出发时间&nbsp;<input type="text" name="qu"style="border-color: #006600; border-style: solid; border-width: 1px">出发地&nbsp;
+			<input placeholder="请输入日期" class="laydate-icon" style="border-color: #006600; border-style: solid; border-width: 1px" onClick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})">到达时间&nbsp;<input type="text" name="qu"style="border-color: #006600; border-style: solid; border-width: 1px">到达地&nbsp;
+			<br><br></div>
+		<div id="27" style="display:none;">
+			第七次出行：
+			<select name="age" style="border-color: #006600; border-style:solid; border-width: 1px" ><option value="relationship"></option>
+				<option value="purpose-1">上班</option>
+				<option value="purpose-2">上学</option>
+				<option value="purpose-3">公务业务</option>
+				<option value="purpose-4">生活购物</option>
+				<option value="purpose-5">文娱体育</option>
+				<option value="purpose-6">探亲访友</option>
+				<option value="purpose-7">回家</option>
+				<option value="purpose-8">回程</option>
+				<option value="purpose-9">其他</option>
+			</select>
+			出行目的&nbsp;
+			<select name="age" style="border-color: #006600; border-style:solid; border-width: 1px" ><option value="relationship"></option>
+				<option value="way-1">步行</option>
+				<option value="way-2">自行车</option>
+				<option value="way-3">摩托车</option>
+				<option value="way-4">私人小汽车</option>
+				<option value="way-5">公家小汽车</option>
+				<option value="way-6">公共汽车</option>
+				<option value="way-7">出租车</option>
+				<option value="way-8">地铁</option>
+				<option value="way-9">网络专车</option>
+				<option value="way-10">单位大客车</option>
+				<option value="way-11">物业巴士</option>
+				<option value="way-12">水巴/轮渡</option>
+				<option value="way-13">其他</option>
+			</select>
+			交通方式&nbsp;
+			<select name="age" style="border-color: #006600; border-style:solid; border-width: 1px" ><option value="relationship"></option>
+				<option value="park-1">路边停车</option>
+				<option value="park-2">公共停车场</option>
+				<option value="park-3">公共建筑配建停车场</option>
+				<option value="park-4">单位停车场</option>
+				<option value="park-5">工地停车场</option>
+				<option value="park-6">其他停车场</option>
+			</select>
+			停车方式&nbsp;<br>
+			<input placeholder="请输入日期" class="laydate-icon" style="border-color: #006600; border-style: solid; border-width: 1px" onClick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})">出发时间&nbsp;<input type="text" name="qu"style="border-color: #006600; border-style: solid; border-width: 1px">出发地&nbsp;
+			<input placeholder="请输入日期" class="laydate-icon" style="border-color: #006600; border-style: solid; border-width: 1px" onClick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})">到达时间&nbsp;<input type="text" name="qu"style="border-color: #006600; border-style: solid; border-width: 1px">到达地&nbsp;
+			<br><br></div>
+		<div id="28" style="display:none;">
+			第八次出行：
+			<select name="age" style="border-color: #006600; border-style:solid; border-width: 1px" ><option value="relationship"></option>
+				<option value="purpose-1">上班</option>
+				<option value="purpose-2">上学</option>
+				<option value="purpose-3">公务业务</option>
+				<option value="purpose-4">生活购物</option>
+				<option value="purpose-5">文娱体育</option>
+				<option value="purpose-6">探亲访友</option>
+				<option value="purpose-7">回家</option>
+				<option value="purpose-8">回程</option>
+				<option value="purpose-9">其他</option>
+			</select>
+			出行目的&nbsp;
+			<select name="age" style="border-color: #006600; border-style:solid; border-width: 1px" ><option value="relationship"></option>
+				<option value="way-1">步行</option>
+				<option value="way-2">自行车</option>
+				<option value="way-3">摩托车</option>
+				<option value="way-4">私人小汽车</option>
+				<option value="way-5">公家小汽车</option>
+				<option value="way-6">公共汽车</option>
+				<option value="way-7">出租车</option>
+				<option value="way-8">地铁</option>
+				<option value="way-9">网络专车</option>
+				<option value="way-10">单位大客车</option>
+				<option value="way-11">物业巴士</option>
+				<option value="way-12">水巴/轮渡</option>
+				<option value="way-13">其他</option>
+			</select>
+			交通方式&nbsp;
+			<select name="age" style="border-color: #006600; border-style:solid; border-width: 1px" ><option value="relationship"></option>
+				<option value="park-1">路边停车</option>
+				<option value="park-2">公共停车场</option>
+				<option value="park-3">公共建筑配建停车场</option>
+				<option value="park-4">单位停车场</option>
+				<option value="park-5">工地停车场</option>
+				<option value="park-6">其他停车场</option>
+			</select>
+			停车方式&nbsp;<br>
+			<input placeholder="请输入日期" class="laydate-icon" style="border-color: #006600; border-style: solid; border-width: 1px" onClick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})">出发时间&nbsp;<input type="text" name="qu"style="border-color: #006600; border-style: solid; border-width: 1px">出发地&nbsp;
+			<input placeholder="请输入日期" class="laydate-icon" style="border-color: #006600; border-style: solid; border-width: 1px" onClick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})">到达时间&nbsp;<input type="text" name="qu"style="border-color: #006600; border-style: solid; border-width: 1px">到达地&nbsp;
+		</div>
+		<h4> 9.您对城市交通（道路公交、地铁、停车设施及过街设施）的建议（选填）</h4>
+		<input type="text" name="advice"style="border-color: #006600; border-style: solid;width: 200px;height: 60px; border-width: 1px">
+	</form>
+
+	<br><br><br><br>
+	<a href="index.html" ><input type="submit" value="提交"  style="width:80px;height:40px;margin-left:400px;font-family:黑体；" ></a>
+	<div id="footer" class="shadow">
+		<p>&copy; 2016 Your Name | <a href="http://www.cssmoban.com/templates/inland-hembygd/">Research design</a> by <a href="http://www.cssmoban.com/">Hopefil</a> <br />More help <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">ME</a></p>
+	</div>
+</div>
+<script type="text/javascript">
+	$(window).load(function() {
+		$('#slider').nivoSlider();
+	});
+</script>
+<script type="text/javascript">
+	!function(){
+		laydate.skin('molv');//切换皮肤，请查看skins下面皮肤库
+		laydate({elem: '#demo'});//绑定元素
+	}();
+
+	//日期范围限制
+	var start = {
+		elem: '#start',
+		format: 'YYYY-MM-DD',
+		min: laydate.now(), //设定最小日期为当前日期
+		max: '2099-06-16', //最大日期
+		istime: true,
+		istoday: false,
+		choose: function(datas){
+			end.min = datas; //开始日选好后，重置结束日的最小日期
+			end.start = datas //将结束日的初始值设定为开始日
+		}
+	};
+
+	var end = {
+		elem: '#end',
+		format: 'YYYY-MM-DD',
+		min: laydate.now(),
+		max: '2099-06-16',
+		istime: true,
+		istoday: false,
+		choose: function(datas){
+			start.max = datas; //结束日选好后，充值开始日的最大日期
+		}
+	};
+	laydate(start);
+	laydate(end);
+
+	//自定义日期格式
+	laydate({
+		elem: '#test1',
+		format: 'YYYY年MM月DD日',
+		festival: true, //显示节日
+		choose: function(datas){ //选择日期完毕的回调
+			alert('得到：'+datas);
+		}
+	});
+
+	//日期范围限定在昨天到明天
+	laydate({
+		elem: '#hello3',
+		min: laydate.now(-1), //-1代表昨天，-2代表前天，以此类推
+		max: laydate.now(+1) //+1代表明天，+2代表后天，以此类推
+	});
+</script>
+</body>
+</html>
